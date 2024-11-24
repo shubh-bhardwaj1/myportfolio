@@ -1,0 +1,169 @@
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFB03B;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* About Us Section */
+#about-us {
+    background-color: #f6c59a;
+    padding: 50px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#about-us h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #FF4434; /* Pizza theme color */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Bio Styling */
+.bio {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+    text-align: left;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio p, .bio ul {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* List Styling */
+.bio ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bio ul li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.bio ul li:hover {
+    background-color: #cf8781;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Highlighting important text */
+.bio strong {
+    color: #FF4434;
+    font-weight: bold;
+}
+
+/* Heading Styling */
+.bio h3 {
+    font-size: 24px;
+    color: #FF4434;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Contact Section */
+.location {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.location p {
+    background-color: #FF4434;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.location p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.location p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #about-us {
+        padding: 30px 15px;
+    }
+
+    #about-us h2 {
+        font-size: 28px;
+    }
+
+    .bio {
+        font-size: 16px;
+    }
+
+    .bio h3 {
+        font-size: 20px;
+    }
+
+    .location p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    #about-us h2 {
+        font-size: 24px;
+    }
+
+    .bio {
+        font-size: 14px;
+    }
+
+    .bio h3 {
+        font-size: 18px;
+    }
+
+    .location p {
+        font-size: 16px;
+    }
+}
+
+/* Buttons Styling (Optional) */
+button {
+    background-color: #FF4434;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e03b2d;
+}
